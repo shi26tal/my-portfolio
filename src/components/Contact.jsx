@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Globe } from "lucide-react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 const contactInfo = [
@@ -10,7 +10,7 @@ const contactInfo = [
   },
   { icon: Phone, text: "+977-9862445979", color: "text-primary" },
   { icon: Mail, text: "shital26prajapati@gmail.com", color: "text-foreground" },
-  { icon: Globe, text: "https://yourportfolio.dev", color: "text-primary" },
+  { icon: Globe, text: "www.shitalprajapati.com.np", color: "text-primary" },
 ];
 
 export default function Contact() {
@@ -19,22 +19,28 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const form = formRef.current;
+
     emailjs
-      .sendForm(
+      .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        formRef.current,
+        {
+          first_name: form.first_name.value,
+          last_name: form.last_name.value,
+          user_email: form.user_email.value,
+          message: form.message.value,
+        },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(() => {
         alert("Message sent successfully!");
         e.target.reset(); // clear form after successful submission
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log(err);
         alert("Failed to send message. Try again.");
       });
-
-    
   };
 
   return (
