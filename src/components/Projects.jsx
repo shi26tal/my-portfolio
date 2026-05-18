@@ -44,7 +44,7 @@ const projectsData = [
     title: "Cartica",
     category: "Design",
     image: "cartica.png",
-    liveUrl: "https://www.figma.com/proto/W6qWVxa3t3hxFSU3HcQ8BG/Cartica?node-id=2135-47&p=f&t=SdLXwLkncILXW6NI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2135%3A47"
+    liveUrl: "https://www.figma.com/proto/W6qWVxa3t3hxFSU3HcQ8BG/Cartica?node-id=2135-47&p=f&t=uGv4kGK8BvNbQI1B-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2135%3A47"
   },
 
 ];
