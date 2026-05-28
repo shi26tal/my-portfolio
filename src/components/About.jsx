@@ -2,7 +2,6 @@ import { Download, ExternalLink } from "lucide-react";
 
 const personalInfo = [
   { label: "Name", value: "Shital Prajapati" },
-  { label: "Date of birth", value: "December 26, 2002" },
   { label: "Address", value: "Kathmandu, Nepal" },
   { label: "Email", value: "shital26prajapati@gmail.com" },
   { label: "Phone", value: "+977 9862445979" },
@@ -38,12 +37,13 @@ export default function About() {
               Get to know me!
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              I’m a Computer Science graduate and web developer focused on
+              I am a Computer Science graduate and web developer focused on
               creating clean, responsive, and efficient web applications. I have
-              experience with JavaScript and the MERN stack, and I’m currently
-              strengthening my development skills by learning TypeScript. I’m
-              also exploring fields like AI, data science to grow as a
-              well-rounded developer.
+              experience with HTML, CSS, JavaScript, and React, and I have
+              learned the MERN stack and TypeScript. I am actively building
+              frontend projects to strengthen my skills through practice. I am
+              also learning Python while exploring fields like AI and data
+              science to grow as a more well-rounded developer.
             </p>
 
             {/* Personal Info */}
@@ -62,7 +62,7 @@ export default function About() {
 
             <div className="flex gap-4">
               <a
-                href="/Shital_Prajapati.pdf"
+                href="/Shital_Prajapati2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
@@ -72,12 +72,22 @@ export default function About() {
               </a>
 
               <a
-                href="/Shital_Prajapati.pdf"
+                href="/Shital_Prajapati2.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-secondary border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-secondary/80 transition-colors"
               >
                 <Download className="w-4 h-4" />
                 Download CV
+              </a>
+            </div>
+
+            <div className="mt-5">
+              <a
+                href="https://www.linkedin.com/in/shital-prajapati-02b957330/"
+                target="_blank"
+                className="text-primary underline text-sm"
+              >
+                View my LinkedIn
               </a>
             </div>
 
