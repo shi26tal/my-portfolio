@@ -62,7 +62,7 @@ export default function About() {
 
             <div className="flex gap-4">
               <a
-                href="/Shital_Prajapati2.pdf"
+                href="/Shital_Prajapati3.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
@@ -72,7 +72,7 @@ export default function About() {
               </a>
 
               <a
-                href="/Shital_Prajapati2.pdf"
+                href="/Shital_Prajapati3.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-secondary border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-secondary/80 transition-colors"
               >
