@@ -62,7 +62,7 @@ export default function About() {
 
             <div className="flex gap-4">
               <a
-                href="/Shital_Prajapati_1.pdf"
+                href="/Shital_Prajapati_2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
@@ -72,7 +72,7 @@ export default function About() {
               </a>
 
               <a
-                href="/Shital_Prajapati_1.pdf"
+                href="/Shital_Prajapati_2.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-secondary border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-secondary/80 transition-colors"
               >
@@ -91,28 +91,7 @@ export default function About() {
               </a>
             </div>
 
-            {/* <a
-              href="/Shital_Prajapati.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors mr-4"
-            >
-              <ExternalLink className="w-4 h-4" />
-              View CV
-            </a>
-            <a
-              href="/Shital_Prajapati.pdf"
-              download
-              className="inline-flex items-center gap-2 bg-secondary border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary/80 transition-colors"
-            >
-              <Download className="w-4 h-4" />
-              Download CV
-            </a> */}
-
-            {/* <button className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
-              <Download className="w-4 h-4" />
-              Download CV
-            </button> */}
+            
           </div>
         </div>
 

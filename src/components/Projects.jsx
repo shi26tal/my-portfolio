@@ -11,6 +11,12 @@ const projectsData = [
     liveUrl: "https://e-commerce-project-gpgy.onrender.com"
   },
   {
+    title: "Spotify Clone",
+    category: "Web",
+    image: "spotify-clone.png",
+    liveUrl: "https://spotify-clone-self-nine-99.vercel.app/"
+  },
+  {
     title: "We Plumb And Heat",
     category: "Web",
     image: "wph.png",

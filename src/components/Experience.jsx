@@ -8,15 +8,7 @@ const experienceData = [
     description:
       "Worked on the Avendi web application as a frontend developer using React. Built reusable components and improved UI responsiveness while collaborating with the team.",
     icon: Briefcase,
-  },
-  {
-    year: "2025",
-    title: "FreeLance Developer (Team Project)",
-    company: "Group Project",
-    description:
-      "Worked as part of a 3-member team to design and develop responsive websites and web applications for client projects. Collaborated on UI development, feature implementation and responsive design across devices.",
-    icon: Clock,
-  },
+  }
 ];
 
 export default function Experience() {
