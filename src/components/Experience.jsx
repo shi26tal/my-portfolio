@@ -2,7 +2,15 @@ import { Briefcase, Clock, Icon } from "lucide-react";
 
 const experienceData = [
   {
-    year: "May 2025 - October 2025",
+    year: "June 2026 - Sept 2026",
+    title: "Full Stack Developer Intern",
+    company: "Worldlink Pvt. Ltd.",
+    description:
+      "Contributed to the Customer Portal by developing frontend features using React and TypeScript and working on backend services with Node.js, Express.js, PostgreSQL, and Sequelize ORM. Used Docker to containerize the frontend application and gained hands-on experience with API integration and database operations.",
+    icon: Briefcase,
+  },
+  {
+    year: "Sept 2025 - Dec 2025",
     title: "Frontend Developer Intern",
     company: "Collab Pvt. Ltd.",
     description:
